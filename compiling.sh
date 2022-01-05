@@ -1,7 +1,7 @@
 cmake -G "Unix Makefiles" \
 -DCMAKE_BUILD_TYPE=Release \
 -DCMAKE_INSTALL_PREFIX=../install \
--DLLVM_TARGETS_TO_BUILD="X86_64" \
+-DLLVM_TARGETS_TO_BUILD="X86" \
 -DLLVM_ENABLE_PROJECTS="clang;libcxx;libcxxabi" \
 ../llvm
 #-DCMAKE_BUILD_TYPE=RelWithDebInfo \
